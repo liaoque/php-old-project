@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T08:06:42.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="J-usq2M4iqIR1Jmy2c0_" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-19T08:08:14.380Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="wcDPtSosJj7WBC3e2vqf" version="15.5.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1075" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -156,20 +156,26 @@
         <mxCell id="pLhjW5pn0E9YMcWPzYZ0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pLhjW5pn0E9YMcWPzYZ0-6" target="zkfFHV4jXpPFQw0GAbJ--17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pLhjW5pn0E9YMcWPzYZ0-26" value="Command" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="232.5" y="690" width="245" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="pLhjW5pn0E9YMcWPzYZ0-27" value="$laravel app" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pLhjW5pn0E9YMcWPzYZ0-26">
-          <mxGeometry y="26" width="245" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="pLhjW5pn0E9YMcWPzYZ0-28" value="$signature 字符串格式的规则，&#xa;可解析该字符串得到命令的选项和参数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pLhjW5pn0E9YMcWPzYZ0-26">
-          <mxGeometry y="52" width="245" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="pLhjW5pn0E9YMcWPzYZ0-30" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pLhjW5pn0E9YMcWPzYZ0-26" target="zkfFHV4jXpPFQw0GAbJ--5">
+        <mxCell id="pLhjW5pn0E9YMcWPzYZ0-30" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pLhjW5pn0E9YMcWPzYZ0-34" target="zkfFHV4jXpPFQw0GAbJ--5">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="600" y="590" as="sourcePoint" />
             <mxPoint x="760" y="590" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pLhjW5pn0E9YMcWPzYZ0-34" value="Command" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="680" width="230" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="pLhjW5pn0E9YMcWPzYZ0-35" value="$laravel app" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pLhjW5pn0E9YMcWPzYZ0-34">
+          <mxGeometry y="26" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pLhjW5pn0E9YMcWPzYZ0-38" value="$signature 字符串格式的规则，&#xa;可解析该字符串得到命令的选项和参数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pLhjW5pn0E9YMcWPzYZ0-34">
+          <mxGeometry y="52" width="230" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="pLhjW5pn0E9YMcWPzYZ0-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="pLhjW5pn0E9YMcWPzYZ0-34">
+          <mxGeometry y="90" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pLhjW5pn0E9YMcWPzYZ0-37" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="pLhjW5pn0E9YMcWPzYZ0-34">
+          <mxGeometry y="98" width="230" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
