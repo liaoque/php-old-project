@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T05:11:25.168Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="7hfzJnv1ulCG5UG_HnSE" version="15.8.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-22T05:16:41.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="2ARL_vS9dHfbLyCmg-Zv" version="15.8.2" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="CMD">
     <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -219,7 +219,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eC2xupxJW7B08Odcg4-6" name="IO">
-    <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1075" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="FGoPhX2peI53cUbU2h72-0" />
         <mxCell id="FGoPhX2peI53cUbU2h72-1" parent="FGoPhX2peI53cUbU2h72-0" />
@@ -320,19 +320,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iak3efhSy_sw0jtjdoL--39" value="StringInput" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="FGoPhX2peI53cUbU2h72-1">
-          <mxGeometry x="40" y="660" width="160" height="112" as="geometry" />
+          <mxGeometry x="40" y="661" width="160" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="iak3efhSy_sw0jtjdoL--40" value="$tokens 输入参数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iak3efhSy_sw0jtjdoL--39">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="iak3efhSy_sw0jtjdoL--41" value="$parsed token的副本" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iak3efhSy_sw0jtjdoL--39">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="iak3efhSy_sw0jtjdoL--42" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="iak3efhSy_sw0jtjdoL--39">
-          <mxGeometry y="78" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="iak3efhSy_sw0jtjdoL--43" value="parse" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iak3efhSy_sw0jtjdoL--39">
-          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        <mxCell id="iak3efhSy_sw0jtjdoL--43" value="tokenize &#xa;反序列化字符串为tokens" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iak3efhSy_sw0jtjdoL--39">
+          <mxGeometry y="26" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="iak3efhSy_sw0jtjdoL--44" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.494;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="FGoPhX2peI53cUbU2h72-1" source="iak3efhSy_sw0jtjdoL--39" target="iak3efhSy_sw0jtjdoL--19">
           <mxGeometry width="160" relative="1" as="geometry">
