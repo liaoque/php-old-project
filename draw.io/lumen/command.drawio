@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T05:23:51.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="HSQgnjtIqaE2pzg7_lFG" version="15.8.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-22T05:24:33.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ARM5y8mxos5_Mn1popxa" version="15.8.2" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="CMD">
     <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -331,7 +331,7 @@
             <mxPoint x="380" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KKsmDNT95n8YfscAtsYh-0" value="input类提供了 &lt;br&gt;对于输入的解析,把输入解析成对应的参数&lt;br&gt;&lt;span&gt;$definition 定义了实际的命令&lt;br&gt;&lt;/span&gt;最后把解析完成的选择和参数给到&lt;span&gt;$definition进行过滤&lt;br&gt;&lt;/span&gt;剩下实际有价值的参数&lt;br&gt;&lt;br&gt;这里主要解耦了， 输入和命令&lt;br&gt;输入按照统一的格式进行预处理或许对应参数和选项&lt;br&gt;然后把预处理的结果交给实际命令，得到命令所需要的参数和&lt;br&gt;可以看出这是一种桥接模式的体现&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="FGoPhX2peI53cUbU2h72-1">
+        <mxCell id="KKsmDNT95n8YfscAtsYh-0" value="input类提供了 &lt;br&gt;对于输入的解析,把输入解析成对应的参数&lt;br&gt;&lt;span&gt;$definition 定义了实际的命令&lt;br&gt;&lt;/span&gt;最后把解析完成的选择和参数给到&lt;span&gt;$definition进行过滤&lt;br&gt;&lt;/span&gt;剩下实际有价值的参数&lt;br&gt;&lt;br&gt;这里主要解耦了， 输入和命令&lt;br&gt;输入按照统一的格式进行预处理或许对应参数和选项&lt;br&gt;然后把预处理的结果交给实际命令，得到命令所需要的参数和&lt;br&gt;&lt;br&gt;可以看出 input 是一种桥接模式的体现&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="FGoPhX2peI53cUbU2h72-1">
           <mxGeometry x="450" y="540" width="370" height="180" as="geometry" />
         </mxCell>
       </root>
