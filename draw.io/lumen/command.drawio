@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T06:02:54.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="EDoTLsJitsbKumzG6ahW" version="15.8.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-25T06:04:30.844Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Pz3mWP4Ae-JbPRIMrfd_" version="15.8.6" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="CMD">
     <mxGraphModel dx="1534" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -463,7 +463,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="S4NHptMnpMwmBD11alAM-39" value="ConsoleOutput" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="S4NHptMnpMwmBD11alAM-1" vertex="1">
-          <mxGeometry x="810" y="450" width="210" height="130" as="geometry" />
+          <mxGeometry x="810" y="450" width="210" height="174" as="geometry" />
         </mxCell>
         <mxCell id="S4NHptMnpMwmBD11alAM-40" value="$stderr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="S4NHptMnpMwmBD11alAM-39" vertex="1">
           <mxGeometry y="26" width="210" height="26" as="geometry" />
@@ -476,6 +476,9 @@
         </mxCell>
         <mxCell id="S4NHptMnpMwmBD11alAM-42" value="实现了ConsoleOutputInterface接口&#xa;添加了控制台的stderr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="S4NHptMnpMwmBD11alAM-39" vertex="1">
           <mxGeometry y="86" width="210" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="wOCY8d9XWpiZa7Z-NHD_-25" value="$sections []ConsoleSectionOutput是&#xa;$consoleSectionOutputs 的引用" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="S4NHptMnpMwmBD11alAM-39">
+          <mxGeometry y="130" width="210" height="44" as="geometry" />
         </mxCell>
         <mxCell id="S4NHptMnpMwmBD11alAM-44" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.463;exitY=0.023;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.569;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" parent="S4NHptMnpMwmBD11alAM-1" source="S4NHptMnpMwmBD11alAM-30" target="S4NHptMnpMwmBD11alAM-24" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -590,6 +593,9 @@
             <mxPoint x="864.0799999999999" y="291.97800000000007" as="sourcePoint" />
             <mxPoint x="820" y="190" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wOCY8d9XWpiZa7Z-NHD_-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="S4NHptMnpMwmBD11alAM-1" source="wOCY8d9XWpiZa7Z-NHD_-25" target="wOCY8d9XWpiZa7Z-NHD_-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
