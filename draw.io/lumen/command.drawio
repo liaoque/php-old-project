@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T06:05:20.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="X_IsqEHjd4FpXwSEM4z5" version="15.8.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-29T07:07:48.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="n9apEpnCO0UlcCbh_Ofu" version="15.8.6" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="CMD">
     <mxGraphModel dx="2009" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -225,7 +225,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eC2xupxJW7B08Odcg4-6" name="IO-input">
-    <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1182" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="FGoPhX2peI53cUbU2h72-0" />
         <mxCell id="FGoPhX2peI53cUbU2h72-1" parent="FGoPhX2peI53cUbU2h72-0" />
@@ -344,7 +344,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AncyRCmv192S_8el7hGx" name="IO-output">
-    <mxGraphModel dx="2009" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2218" dy="2002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="S4NHptMnpMwmBD11alAM-0" />
         <mxCell id="S4NHptMnpMwmBD11alAM-1" parent="S4NHptMnpMwmBD11alAM-0" />
@@ -578,7 +578,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wOCY8d9XWpiZa7Z-NHD_-29" value="OutputFormatter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="S4NHptMnpMwmBD11alAM-1" vertex="1">
-          <mxGeometry x="1300" y="310" width="160" height="86" as="geometry" />
+          <mxGeometry x="1300" y="412" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="wOCY8d9XWpiZa7Z-NHD_-30" value="$stream" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="wOCY8d9XWpiZa7Z-NHD_-29" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -593,7 +593,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wOCY8d9XWpiZa7Z-NHD_-34" value="«interface»&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;OutputFormatterInterface&lt;/span&gt;" style="html=1;" parent="S4NHptMnpMwmBD11alAM-1" vertex="1">
-          <mxGeometry x="1440" y="80" width="164" height="50" as="geometry" />
+          <mxGeometry x="1440" y="103" width="164" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wOCY8d9XWpiZa7Z-NHD_-36" value="«interface»&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;ConsoleOutputInterface&lt;/span&gt;" style="html=1;" parent="S4NHptMnpMwmBD11alAM-1" vertex="1">
           <mxGeometry x="545" y="618" width="170" height="46" as="geometry" />
@@ -623,7 +623,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="22X2t521L6-gMKNGlB93-0" value="QuestionHelper" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="S4NHptMnpMwmBD11alAM-1" vertex="1">
-          <mxGeometry x="-320" y="126" width="160" height="164" as="geometry" />
+          <mxGeometry x="-310" y="126" width="160" height="164" as="geometry" />
         </mxCell>
         <mxCell id="22X2t521L6-gMKNGlB93-1" value="$inputStream" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="22X2t521L6-gMKNGlB93-0" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -644,7 +644,7 @@
           <mxGeometry y="138" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="22X2t521L6-gMKNGlB93-4" value="Helper" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="S4NHptMnpMwmBD11alAM-1" vertex="1">
-          <mxGeometry x="-320" y="-30" width="160" height="86" as="geometry" />
+          <mxGeometry x="-310" y="-30" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="22X2t521L6-gMKNGlB93-5" value="$helperSet" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="22X2t521L6-gMKNGlB93-4" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -652,7 +652,7 @@
         <mxCell id="22X2t521L6-gMKNGlB93-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="22X2t521L6-gMKNGlB93-4" vertex="1">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="22X2t521L6-gMKNGlB93-7" value="ask" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="22X2t521L6-gMKNGlB93-4" vertex="1">
+        <mxCell id="22X2t521L6-gMKNGlB93-7" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="22X2t521L6-gMKNGlB93-4" vertex="1">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="22X2t521L6-gMKNGlB93-12" value="«interface»&lt;br&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;HelperInterface&lt;/span&gt;" style="html=1;" parent="S4NHptMnpMwmBD11alAM-1" vertex="1">
@@ -660,8 +660,8 @@
         </mxCell>
         <mxCell id="22X2t521L6-gMKNGlB93-16" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.513;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="S4NHptMnpMwmBD11alAM-1" source="22X2t521L6-gMKNGlB93-0" target="22X2t521L6-gMKNGlB93-7" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-620" y="90" as="sourcePoint" />
-            <mxPoint x="-460" y="90" as="targetPoint" />
+            <mxPoint x="-610" y="90" as="sourcePoint" />
+            <mxPoint x="-450" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="22X2t521L6-gMKNGlB93-17" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.531;entryY=1.077;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="S4NHptMnpMwmBD11alAM-1" source="pjGnZSQ6N4noCNDuDEoA-0" target="22X2t521L6-gMKNGlB93-3" edge="1">
@@ -680,7 +680,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m_KIH4WsX-XtsLUFMGP3-0" value="«interface»&lt;br&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;WrappableOutputFormatterInterface&lt;/span&gt;" style="html=1;" vertex="1" parent="S4NHptMnpMwmBD11alAM-1">
-          <mxGeometry x="1410" y="166" width="210" height="46" as="geometry" />
+          <mxGeometry x="1417" y="244" width="210" height="46" as="geometry" />
         </mxCell>
         <mxCell id="m_KIH4WsX-XtsLUFMGP3-2" value="«interface»&lt;br&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;OutputInterface&lt;/span&gt;" style="html=1;" vertex="1" parent="S4NHptMnpMwmBD11alAM-1">
           <mxGeometry x="545" y="520" width="170" height="46" as="geometry" />
@@ -690,6 +690,9 @@
             <mxPoint x="464.9979292144941" y="818" as="sourcePoint" />
             <mxPoint x="630.35" y="566.002" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="UhNrZ8xCEiBWDBMC-Mvk-1" value="&lt;span style=&quot;font-weight: 700&quot;&gt;Output 负责实际输出内容&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;&amp;nbsp; ConsoleOutput 管理输出页，并输出到控制台&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 700 ; text-align: center&quot;&gt;&amp;nbsp; ConsoleSectionOutput 控制输出页缓冲&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;OutputStyle：依赖&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;Output，依赖&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 700 ; text-align: center&quot;&gt;QuestionHelper&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;Output&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;： 管理输出， 定义默认的样式， 依赖&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;OutputFormatter&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;&lt;br&gt;&lt;/span&gt;OutputFormatterInterface：负责定义输出的样式格式或者协议" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="S4NHptMnpMwmBD11alAM-1">
+          <mxGeometry x="-340" y="590" width="400" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
