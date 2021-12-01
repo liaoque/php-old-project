@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T01:54:31.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="o4tVQe6s5E77vqhHD9Up" version="15.8.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-01T02:01:25.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="O5nvGpjGLAt0YgkAvhSn" version="15.8.7" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="CMD">
     <mxGraphModel dx="2009" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -670,7 +670,7 @@
             <mxPoint x="525.35" y="496.00199999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhNrZ8xCEiBWDBMC-Mvk-1" value="&lt;span style=&quot;font-weight: 700&quot;&gt;Output 负责实际输出内容&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;&amp;nbsp; &amp;nbsp; ConsoleOutput 管理输出页，并输出到控制台&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 700 ; text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; ConsoleSectionOutput 控制输出页缓冲&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;OutputStyle：依赖&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; text-align: center ; background-color: rgb(247 , 250 , 255)&quot;&gt;OutputInterface&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;，依赖&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 700 ; text-align: center&quot;&gt;SymfonyQuestionHelper&lt;/span&gt;&lt;span style=&quot;font-weight: 700 ; text-align: center&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;Output&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;： 负责输出， 定义默认的样式， 依赖&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;OutputFormatter&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;&lt;br&gt;&lt;/span&gt;OutputFormatterInterface：负责定义输出的样式格式或者协议&lt;br&gt;&lt;span style=&quot;font-weight: 700 ; text-align: center&quot;&gt;SymfonyQuestionHelper：实现了客户端的交互，默认是控制台的&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="S4NHptMnpMwmBD11alAM-1" vertex="1">
+        <mxCell id="UhNrZ8xCEiBWDBMC-Mvk-1" value="&lt;span style=&quot;font-weight: 700&quot;&gt;Output 负责实际输出内容&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;&amp;nbsp; &amp;nbsp; ConsoleOutput 管理输出页，并输出到控制台&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 700 ; text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; ConsoleSectionOutput 控制输出页缓冲&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;依赖&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9pt ; background-color: rgb(247 , 250 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;OutputFormatter&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;OutputStyle：&lt;br&gt;&amp;nbsp; &amp;nbsp; 依赖&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; text-align: center ; background-color: rgb(247 , 250 , 255)&quot;&gt;OutputInterface&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;，&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; 组合 SymfonyQuestionHelper：客户端交互&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; 组合 TrimmedBufferOutput：buffer缓冲&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;OutputFormatterInterface：负责定义输出的样式格式或者协议&lt;br&gt;&lt;span style=&quot;font-weight: 700 ; text-align: center&quot;&gt;SymfonyQuestionHelper：实现了客户端的交互，默认是控制台的&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="S4NHptMnpMwmBD11alAM-1" vertex="1">
           <mxGeometry x="-340" y="560" width="400" height="150" as="geometry" />
         </mxCell>
         <mxCell id="-4Y7f5CogJnq83cF-QF--0" value="&lt;span style=&quot;font-weight: 700&quot;&gt;OutputStyle 作为调用者&lt;br&gt;没写完， 研究下是否满足设计模式&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="S4NHptMnpMwmBD11alAM-1" vertex="1">
@@ -688,21 +688,22 @@
             <mxPoint x="1393" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhesIFNuI0-jnEGjxNZB-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.092;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="S4NHptMnpMwmBD11alAM-1" source="S4NHptMnpMwmBD11alAM-10" target="pjGnZSQ6N4noCNDuDEoA-0">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vhesIFNuI0-jnEGjxNZB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.106;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="S4NHptMnpMwmBD11alAM-1" source="S4NHptMnpMwmBD11alAM-13" target="wOCY8d9XWpiZa7Z-NHD_-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="560" y="433" />
-              <mxPoint x="560" y="297" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="vhesIFNuI0-jnEGjxNZB-5" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="S4NHptMnpMwmBD11alAM-1" target="wOCY8d9XWpiZa7Z-NHD_-34">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1020" y="140" as="sourcePoint" />
             <mxPoint x="1180" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vhesIFNuI0-jnEGjxNZB-6" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.994;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="S4NHptMnpMwmBD11alAM-1" source="S4NHptMnpMwmBD11alAM-10" target="pjGnZSQ6N4noCNDuDEoA-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-120" y="343" as="sourcePoint" />
+            <mxPoint x="40" y="343" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vhesIFNuI0-jnEGjxNZB-7" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=-0.019;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="S4NHptMnpMwmBD11alAM-1" source="S4NHptMnpMwmBD11alAM-13" target="wOCY8d9XWpiZa7Z-NHD_-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="380" y="430" as="sourcePoint" />
+            <mxPoint x="540" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
