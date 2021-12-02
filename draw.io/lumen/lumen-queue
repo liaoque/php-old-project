@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T07:15:50.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="e6nsiiAqleEARgimuOo4" version="15.8.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-02T07:20:55.226Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="P7sNSwzzXZnWZo8XdR54" version="15.8.7" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -320,7 +320,7 @@
           <mxGeometry x="360" y="1170" width="215" height="50" as="geometry" />
         </mxCell>
         <mxCell id="n6WIxNRq0TuKVbo2MGa2-26" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;exit(exitCode)&lt;br/&gt;正常结束返回 状态码&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WkFDbYVM7cvTiAS4us2j-1">
-          <mxGeometry x="90" y="800" width="210" height="50" as="geometry" />
+          <mxGeometry x="80" y="690" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="n6WIxNRq0TuKVbo2MGa2-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WkFDbYVM7cvTiAS4us2j-1" source="n6WIxNRq0TuKVbo2MGa2-28" target="n6WIxNRq0TuKVbo2MGa2-32">
           <mxGeometry relative="1" as="geometry" />
@@ -534,7 +534,7 @@
         <mxCell id="uGZosxpbx-zz6mGNn6A2-3" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #0033b3 ; background-color: #f7faff&quot;&gt;if &lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$this&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #871094 ; background-color: #f7faff&quot;&gt;booted&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;) {&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$this&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;bootProvider&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$provider&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;);&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;}&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="PNakDXNeOscbMIW7O8FS-1">
           <mxGeometry x="70" y="820" width="340" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uGZosxpbx-zz6mGNn6A2-8" value="具体看 laravel provider介绍" style="whiteSpace=wrap;html=1;rounded=0;align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="PNakDXNeOscbMIW7O8FS-1">
+        <mxCell id="uGZosxpbx-zz6mGNn6A2-8" value="具体看 laravel provider介绍&lt;br&gt;注册并不生成对象，等用的时候在解析" style="whiteSpace=wrap;html=1;rounded=0;align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="PNakDXNeOscbMIW7O8FS-1">
           <mxGeometry x="620" y="682.5" width="280" height="65" as="geometry" />
         </mxCell>
         <mxCell id="uGZosxpbx-zz6mGNn6A2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="PNakDXNeOscbMIW7O8FS-1" source="uGZosxpbx-zz6mGNn6A2-10" target="uGZosxpbx-zz6mGNn6A2-8">
