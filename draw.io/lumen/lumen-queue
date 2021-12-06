@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-03T09:33:24.151Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="0eOnpHgMWacCX4_OARTv" version="15.8.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-06T07:20:23.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="1rX9JMKYorRd6qNYUeI9" version="15.8.7" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -423,7 +423,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jvfY-zz3jvBXQMN2Yecd" name="register">
-    <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2009" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PNakDXNeOscbMIW7O8FS-0" />
         <mxCell id="PNakDXNeOscbMIW7O8FS-1" parent="PNakDXNeOscbMIW7O8FS-0" />
@@ -431,10 +431,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uGZosxpbx-zz6mGNn6A2-0" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$this&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #871094 ; background-color: #f7faff&quot;&gt;loadedProviders&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$providerName&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;] = &lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$provider&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="PNakDXNeOscbMIW7O8FS-1" vertex="1">
-          <mxGeometry x="70" y="585" width="340" height="50" as="geometry" />
+          <mxGeometry x="-270" y="210" width="340" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uGZosxpbx-zz6mGNn6A2-1" value="\laravel\lumen-framework\src\Application.php" style="text;whiteSpace=wrap;html=1;" parent="PNakDXNeOscbMIW7O8FS-1" vertex="1">
-          <mxGeometry x="40" y="555" width="260" height="30" as="geometry" />
+          <mxGeometry x="-300" y="180" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uGZosxpbx-zz6mGNn6A2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="PNakDXNeOscbMIW7O8FS-1" source="uGZosxpbx-zz6mGNn6A2-2" target="uGZosxpbx-zz6mGNn6A2-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -443,54 +443,62 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uGZosxpbx-zz6mGNn6A2-2" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #0033b3 ; background-color: #f7faff&quot;&gt;if &lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #000000 ; background-color: #f7faff ; font-style: italic&quot;&gt;method_exists&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$provider&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #067d17 ; background-color: #f7faff&quot;&gt;&#39;register&#39;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;)) {&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$provider&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;register&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;();&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;}&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="PNakDXNeOscbMIW7O8FS-1" vertex="1">
-          <mxGeometry x="70" y="690" width="340" height="50" as="geometry" />
+          <mxGeometry x="-270" y="315" width="340" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uGZosxpbx-zz6mGNn6A2-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="PNakDXNeOscbMIW7O8FS-1" source="uGZosxpbx-zz6mGNn6A2-3" target="uGZosxpbx-zz6mGNn6A2-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uGZosxpbx-zz6mGNn6A2-3" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #0033b3 ; background-color: #f7faff&quot;&gt;if &lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$this&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #871094 ; background-color: #f7faff&quot;&gt;booted&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;) {&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$this&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;bootProvider&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$provider&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;);&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;}&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="PNakDXNeOscbMIW7O8FS-1" vertex="1">
-          <mxGeometry x="70" y="820" width="340" height="50" as="geometry" />
+          <mxGeometry x="-270" y="445" width="340" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uGZosxpbx-zz6mGNn6A2-8" value="具体看 laravel provider介绍&lt;br&gt;注册并不生成对象，等用的时候在解析" style="whiteSpace=wrap;html=1;rounded=0;align=left;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="PNakDXNeOscbMIW7O8FS-1" vertex="1">
-          <mxGeometry x="620" y="682.5" width="280" height="65" as="geometry" />
+          <mxGeometry x="280" y="307.5" width="280" height="65" as="geometry" />
         </mxCell>
         <mxCell id="uGZosxpbx-zz6mGNn6A2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="PNakDXNeOscbMIW7O8FS-1" source="uGZosxpbx-zz6mGNn6A2-10" target="uGZosxpbx-zz6mGNn6A2-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uGZosxpbx-zz6mGNn6A2-10" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #0033b3 ; background-color: #f7faff&quot;&gt;if &lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #000000 ; background-color: #f7faff ; font-style: italic&quot;&gt;method_exists&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$provider&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #067d17 ; background-color: #f7faff&quot;&gt;&#39;boot&#39;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;)) {&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #0033b3 ; background-color: #f7faff&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$this&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;call&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;([&lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$provider&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #067d17 ; background-color: #f7faff&quot;&gt;&#39;boot&#39;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;]);&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;}&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="PNakDXNeOscbMIW7O8FS-1" vertex="1">
-          <mxGeometry x="590" y="812.5" width="340" height="65" as="geometry" />
+          <mxGeometry x="250" y="437.5" width="340" height="65" as="geometry" />
         </mxCell>
         <UserObject label="https://learnku.com/docs/laravel/8.x/providers/9362#the-boot-method" link="https://learnku.com/docs/laravel/8.x/providers/9362#the-boot-method" id="uGZosxpbx-zz6mGNn6A2-16">
           <mxCell style="text;whiteSpace=wrap;html=1;" parent="PNakDXNeOscbMIW7O8FS-1" vertex="1">
-            <mxGeometry x="565" y="595" width="390" height="30" as="geometry" />
+            <mxGeometry x="225" y="220" width="390" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="uGZosxpbx-zz6mGNn6A2-17" value="vendor/illuminate/database/MigrationServiceProvider.php" style="text;whiteSpace=wrap;html=1;" parent="PNakDXNeOscbMIW7O8FS-1" vertex="1">
-          <mxGeometry x="80" y="900" width="330" height="30" as="geometry" />
+          <mxGeometry x="-260" y="525" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uGZosxpbx-zz6mGNn6A2-18" value="vendor/laravel/lumen-framework/src/Console/ConsoleServiceProvider.php" style="text;whiteSpace=wrap;html=1;" parent="PNakDXNeOscbMIW7O8FS-1" vertex="1">
-          <mxGeometry x="70" y="930" width="420" height="30" as="geometry" />
+          <mxGeometry x="-270" y="555" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uGZosxpbx-zz6mGNn6A2-19" value="两个cli系统服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="PNakDXNeOscbMIW7O8FS-1" vertex="1">
-          <mxGeometry x="70" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="-270" y="585" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uGZosxpbx-zz6mGNn6A2-20" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #0033b3 ; background-color: #f7faff&quot;&gt;protected function &lt;/span&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;registerScheduleRunCommand&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;()&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;{&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$this&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #871094 ; background-color: #f7faff&quot;&gt;app&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;singleton&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #000000 ; background-color: #f7faff&quot;&gt;ScheduleRunCommand&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #0033b3 ; background-color: #f7faff&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;);&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;}&lt;br/&gt;&lt;br/&gt;注册一个命令的例子&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="PNakDXNeOscbMIW7O8FS-1" vertex="1">
-          <mxGeometry x="200" y="960" width="340" height="100" as="geometry" />
+          <mxGeometry x="-140" y="585" width="340" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uGZosxpbx-zz6mGNn6A2-22" value="vendor/illuminate/container/Container.php" style="text;whiteSpace=wrap;html=1;" parent="PNakDXNeOscbMIW7O8FS-1" vertex="1">
-          <mxGeometry x="200" y="1090" width="250" height="30" as="geometry" />
+          <mxGeometry x="-140" y="715" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uGZosxpbx-zz6mGNn6A2-24" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #0033b3 ; background-color: #f7faff&quot;&gt;public function &lt;/span&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;singleton&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$abstract&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$concrete &lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;color: #0033b3 ; background-color: #f7faff&quot;&gt;null&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;{&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$this&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;bind&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$abstract&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$concrete&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #0033b3 ; background-color: #f7faff&quot;&gt;true&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;);&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;}&lt;br&gt;把对象注册到 容器内即可，具体参考下面文档说明&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="PNakDXNeOscbMIW7O8FS-1" vertex="1">
-          <mxGeometry x="200" y="1130" width="350" height="100" as="geometry" />
+          <mxGeometry x="-140" y="755" width="350" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uGZosxpbx-zz6mGNn6A2-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="PNakDXNeOscbMIW7O8FS-1" source="uGZosxpbx-zz6mGNn6A2-25" target="uGZosxpbx-zz6mGNn6A2-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="https://learnku.com/docs/laravel/8.x/container/9361#4f6d33" link="https://learnku.com/docs/laravel/8.x/container/9361#4f6d33" id="uGZosxpbx-zz6mGNn6A2-25">
           <mxCell style="text;whiteSpace=wrap;html=1;" parent="PNakDXNeOscbMIW7O8FS-1" vertex="1">
-            <mxGeometry x="205" y="1240" width="340" height="30" as="geometry" />
+            <mxGeometry x="-135" y="885" width="340" height="30" as="geometry" />
           </mxCell>
         </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SBlF6siYQg8Clih3SXN4" name="Page-4">
+    <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ScgTpdd3-xkfnw4XMcyq-0" />
+        <mxCell id="ScgTpdd3-xkfnw4XMcyq-1" parent="ScgTpdd3-xkfnw4XMcyq-0" />
       </root>
     </mxGraphModel>
   </diagram>
