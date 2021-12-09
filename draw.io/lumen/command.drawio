@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T03:17:02.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="-2ghBwj9fU1Kh_yCqueF" version="15.8.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-09T05:21:33.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="kcQxLfhTEGaLFA-6cUiR" version="15.8.7" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="CMD">
-    <mxGraphModel dx="2009" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2009" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -221,11 +221,14 @@
         <mxCell id="Mzvbru1vRv4SkaG35ZgY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pLhjW5pn0E9YMcWPzYZ0-2" target="Mzvbru1vRv4SkaG35ZgY-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="r-4tzGCoC1mjdlv8qvIB-1" value="vendor/illuminate/console/Command.php" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="650" width="240" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="eC2xupxJW7B08Odcg4-6" name="IO-input">
-    <mxGraphModel dx="1182" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="FGoPhX2peI53cUbU2h72-0" />
         <mxCell id="FGoPhX2peI53cUbU2h72-1" parent="FGoPhX2peI53cUbU2h72-0" />
@@ -344,7 +347,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AncyRCmv192S_8el7hGx" name="IO-output">
-    <mxGraphModel dx="2009" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2009" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="S4NHptMnpMwmBD11alAM-0" />
         <mxCell id="S4NHptMnpMwmBD11alAM-1" parent="S4NHptMnpMwmBD11alAM-0" />
@@ -682,29 +685,143 @@
             <mxPoint x="510" y="-50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhesIFNuI0-jnEGjxNZB-0" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="S4NHptMnpMwmBD11alAM-1" source="m_KIH4WsX-XtsLUFMGP3-0" target="wOCY8d9XWpiZa7Z-NHD_-34">
+        <mxCell id="vhesIFNuI0-jnEGjxNZB-0" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="S4NHptMnpMwmBD11alAM-1" source="m_KIH4WsX-XtsLUFMGP3-0" target="wOCY8d9XWpiZa7Z-NHD_-34" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1233" y="200" as="sourcePoint" />
             <mxPoint x="1393" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhesIFNuI0-jnEGjxNZB-5" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="S4NHptMnpMwmBD11alAM-1" target="wOCY8d9XWpiZa7Z-NHD_-34">
+        <mxCell id="vhesIFNuI0-jnEGjxNZB-5" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="S4NHptMnpMwmBD11alAM-1" target="wOCY8d9XWpiZa7Z-NHD_-34" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1020" y="140" as="sourcePoint" />
             <mxPoint x="1180" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhesIFNuI0-jnEGjxNZB-6" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.994;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="S4NHptMnpMwmBD11alAM-1" source="S4NHptMnpMwmBD11alAM-10" target="pjGnZSQ6N4noCNDuDEoA-0">
+        <mxCell id="vhesIFNuI0-jnEGjxNZB-6" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.994;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="S4NHptMnpMwmBD11alAM-1" source="S4NHptMnpMwmBD11alAM-10" target="pjGnZSQ6N4noCNDuDEoA-0" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-120" y="343" as="sourcePoint" />
             <mxPoint x="40" y="343" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhesIFNuI0-jnEGjxNZB-7" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=-0.019;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="S4NHptMnpMwmBD11alAM-1" source="S4NHptMnpMwmBD11alAM-13" target="wOCY8d9XWpiZa7Z-NHD_-6">
+        <mxCell id="vhesIFNuI0-jnEGjxNZB-7" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=-0.019;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="S4NHptMnpMwmBD11alAM-1" source="S4NHptMnpMwmBD11alAM-13" target="wOCY8d9XWpiZa7Z-NHD_-6" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="380" y="430" as="sourcePoint" />
             <mxPoint x="540" y="430" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HxSmjruEYMzeB5PG_M_W" name="ScheduleRunCommand">
+    <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="t0l-BFTdsn3JFGyCsLJD-0" />
+        <mxCell id="t0l-BFTdsn3JFGyCsLJD-1" parent="t0l-BFTdsn3JFGyCsLJD-0" />
+        <mxCell id="LkXbEw82C-S9ItwX4znd-0" value="Command" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="t0l-BFTdsn3JFGyCsLJD-1">
+          <mxGeometry x="220" y="120" width="270" height="428" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-1" value="$application" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-0">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-2" value="$name 如果不存在，则使用$defaultName" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-0">
+          <mxGeometry y="52" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-3" value="$processTitle 执行命令时候的进程名字" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-0">
+          <mxGeometry y="82" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-4" value="$aliases" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-0">
+          <mxGeometry y="108" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-5" value="$definition 命令定义 的对象" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-0">
+          <mxGeometry y="134" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-6" value="$hidden 打印的时候是否显示命令" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-0">
+          <mxGeometry y="160" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-7" value="$help 帮助说明" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-0">
+          <mxGeometry y="186" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-8" value="$description" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-0">
+          <mxGeometry y="212" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-9" value="$fullDefinition 完整的命令定义 的对象" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-0">
+          <mxGeometry y="238" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-10" value="$ignoreValidationErrors" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-0">
+          <mxGeometry y="264" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-11" value="$code 自定义的实际执行函数 否则默认handle" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-0">
+          <mxGeometry y="290" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-12" value="$synopsis [] 参数和选项说明" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-0">
+          <mxGeometry y="316" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-13" value="$usages [] 使用样例" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-0">
+          <mxGeometry y="342" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-14" value="$helperSet 所有命令的集合" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-0">
+          <mxGeometry y="368" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-15" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-0">
+          <mxGeometry y="394" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-16" value="Purchase Parking Pass" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-0">
+          <mxGeometry y="402" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-17" value="ScheduleRunCommand" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="t0l-BFTdsn3JFGyCsLJD-1">
+          <mxGeometry x="220" y="700" width="270" height="428" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-18" value="$application" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-19" value="$name 如果不存在，则使用$defaultName" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
+          <mxGeometry y="52" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-20" value="$processTitle 执行命令时候的进程名字" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
+          <mxGeometry y="82" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-21" value="$aliases" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
+          <mxGeometry y="108" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-22" value="$definition 命令定义 的对象" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
+          <mxGeometry y="134" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-23" value="$hidden 打印的时候是否显示命令" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
+          <mxGeometry y="160" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-24" value="$help 帮助说明" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
+          <mxGeometry y="186" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-25" value="$description" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
+          <mxGeometry y="212" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-26" value="$fullDefinition 完整的命令定义 的对象" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
+          <mxGeometry y="238" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-27" value="$ignoreValidationErrors" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
+          <mxGeometry y="264" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-28" value="$code 自定义的实际执行函数 否则默认handle" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
+          <mxGeometry y="290" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-29" value="$synopsis [] 参数和选项说明" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
+          <mxGeometry y="316" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-30" value="$usages [] 使用样例" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
+          <mxGeometry y="342" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-31" value="$helperSet 所有命令的集合" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
+          <mxGeometry y="368" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-32" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
+          <mxGeometry y="394" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXbEw82C-S9ItwX4znd-33" value="Purchase Parking Pass" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
+          <mxGeometry y="402" width="270" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
