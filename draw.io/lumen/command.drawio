@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T05:41:30.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="qOk-7kCpHqey2TeQizro" version="15.8.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-09T05:43:13.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="F8VH8OSYRN5bnLXeMUx5" version="15.8.7" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="CMD">
     <mxGraphModel dx="2009" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -889,7 +889,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LLgb7InQEpYfvsgvmsfn-4" value="Handler" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="t0l-BFTdsn3JFGyCsLJD-1">
-          <mxGeometry x="-370" y="950" width="270" height="90" as="geometry">
+          <mxGeometry x="-390" y="1070" width="270" height="112" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -899,11 +899,40 @@
         <mxCell id="LLgb7InQEpYfvsgvmsfn-10" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LLgb7InQEpYfvsgvmsfn-4">
           <mxGeometry y="52" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="LLgb7InQEpYfvsgvmsfn-12" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.312;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="t0l-BFTdsn3JFGyCsLJD-1" source="LLgb7InQEpYfvsgvmsfn-4" target="LLgb7InQEpYfvsgvmsfn-0">
+        <mxCell id="LLgb7InQEpYfvsgvmsfn-11" value="report 记录日志" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LLgb7InQEpYfvsgvmsfn-4">
+          <mxGeometry y="60" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LLgb7InQEpYfvsgvmsfn-13" value="render 渲染返回输出" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LLgb7InQEpYfvsgvmsfn-4">
+          <mxGeometry y="86" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LLgb7InQEpYfvsgvmsfn-12" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.312;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="t0l-BFTdsn3JFGyCsLJD-1" source="LLgb7InQEpYfvsgvmsfn-15" target="LLgb7InQEpYfvsgvmsfn-0">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-300" y="940" as="sourcePoint" />
             <mxPoint x="-140" y="940" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LLgb7InQEpYfvsgvmsfn-14" value="app/Exceptions/Handler.php" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="t0l-BFTdsn3JFGyCsLJD-1">
+          <mxGeometry x="-420" y="1040" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LLgb7InQEpYfvsgvmsfn-15" value="Handler" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="t0l-BFTdsn3JFGyCsLJD-1">
+          <mxGeometry x="-383" y="920" width="270" height="112" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LLgb7InQEpYfvsgvmsfn-16" value="$dontReport 不需要记录日志的异常类列表" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LLgb7InQEpYfvsgvmsfn-15">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LLgb7InQEpYfvsgvmsfn-17" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LLgb7InQEpYfvsgvmsfn-15">
+          <mxGeometry y="52" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LLgb7InQEpYfvsgvmsfn-18" value="report 记录日志" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LLgb7InQEpYfvsgvmsfn-15">
+          <mxGeometry y="60" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LLgb7InQEpYfvsgvmsfn-19" value="render 渲染返回输出" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LLgb7InQEpYfvsgvmsfn-15">
+          <mxGeometry y="86" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LLgb7InQEpYfvsgvmsfn-21" value="vendor/laravel/lumen-framework/src/Exceptions/Handler.php" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="t0l-BFTdsn3JFGyCsLJD-1">
+          <mxGeometry x="-540" y="885" width="350" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
