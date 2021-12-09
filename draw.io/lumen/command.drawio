@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T07:28:38.017Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="L7RJctItSKsDjLm6aV17" version="15.8.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-09T07:34:19.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Te8H3tUhdEaU163maKaR" version="15.8.7" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="CMD">
     <mxGraphModel dx="2009" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -781,7 +781,7 @@
         <mxCell id="LkXbEw82C-S9ItwX4znd-19" value="$startedAt 当前执行时间" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
           <mxGeometry y="52" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LkXbEw82C-S9ItwX4znd-20" value="$eventsRan 非空日程" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
+        <mxCell id="LkXbEw82C-S9ItwX4znd-20" value="$eventsRan true执行了日程，false没有执行" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
           <mxGeometry y="82" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="LkXbEw82C-S9ItwX4znd-22" value="$dispatcher 事件调度器" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LkXbEw82C-S9ItwX4znd-17">
@@ -1160,6 +1160,9 @@
             <mxPoint x="1120" y="450" as="sourcePoint" />
             <mxPoint x="1280" y="450" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hA9z_tXhUc6T2AT0hzN--83" value="&lt;span style=&quot;font-style: italic&quot;&gt;ScheduleRunCommand： 是schedule的命令对象&lt;br&gt;-&amp;nbsp;&lt;/span&gt;&lt;span&gt;$schedule： 日程管理对象， 管理所有的日程&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-style: italic&quot;&gt;-&amp;nbsp;&lt;br&gt;-----&lt;br&gt;- handle: 执行所有的日程&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="t0l-BFTdsn3JFGyCsLJD-1">
+          <mxGeometry x="260" y="1100" width="470" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
