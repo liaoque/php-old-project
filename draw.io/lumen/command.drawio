@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T06:03:32.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Uk75zT7joUs0CH1goRwH" version="15.8.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-09T06:08:14.422Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="xsFaHpn_FoxyINOlAOsW" version="15.8.7" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="CMD">
     <mxGraphModel dx="2009" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -836,7 +836,7 @@
           <mxGeometry x="875" y="850" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MKtINcpbtidQSo-Pu7M5-10" value="Dispatcher" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="t0l-BFTdsn3JFGyCsLJD-1">
-          <mxGeometry x="800" y="880" width="270" height="200" as="geometry">
+          <mxGeometry x="800" y="880" width="270" height="246" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -858,8 +858,14 @@
         <mxCell id="MKtINcpbtidQSo-Pu7M5-16" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="MKtINcpbtidQSo-Pu7M5-10">
           <mxGeometry y="160" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="MKtINcpbtidQSo-Pu7M5-17" value="Purchase Parking Pass" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MKtINcpbtidQSo-Pu7M5-10">
+        <mxCell id="MKtINcpbtidQSo-Pu7M5-17" value="listen  监听事件" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MKtINcpbtidQSo-Pu7M5-10">
           <mxGeometry y="168" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LLgb7InQEpYfvsgvmsfn-23" value="dispatch 派发事件" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MKtINcpbtidQSo-Pu7M5-10">
+          <mxGeometry y="194" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LLgb7InQEpYfvsgvmsfn-24" value="subscribe    订阅者" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MKtINcpbtidQSo-Pu7M5-10">
+          <mxGeometry y="220" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="xb4JJZOOrw-NlACTfSye-0" value="«interface»&lt;br&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;Dispatcher&lt;/span&gt;" style="html=1;" vertex="1" parent="t0l-BFTdsn3JFGyCsLJD-1">
           <mxGeometry x="630" y="780" width="170" height="46" as="geometry" />
