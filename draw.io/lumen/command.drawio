@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T07:34:19.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Te8H3tUhdEaU163maKaR" version="15.8.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-09T07:55:52.982Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="H-NdD-dlK7zcDVbUY2VD" version="15.8.7" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="CMD">
     <mxGraphModel dx="2009" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -960,7 +960,7 @@
         <mxCell id="LLgb7InQEpYfvsgvmsfn-29" value="$events 日程事件列表" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LLgb7InQEpYfvsgvmsfn-28">
           <mxGeometry y="26" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="LLgb7InQEpYfvsgvmsfn-30" value="$eventMutex 时间互斥锁" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LLgb7InQEpYfvsgvmsfn-28">
+        <mxCell id="LLgb7InQEpYfvsgvmsfn-30" value="$eventMutex 事件互斥锁" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LLgb7InQEpYfvsgvmsfn-28">
           <mxGeometry y="52" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LLgb7InQEpYfvsgvmsfn-31" value="$schedulingMutex 日程互斥锁" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LLgb7InQEpYfvsgvmsfn-28">
@@ -1161,8 +1161,8 @@
             <mxPoint x="1280" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hA9z_tXhUc6T2AT0hzN--83" value="&lt;span style=&quot;font-style: italic&quot;&gt;ScheduleRunCommand： 是schedule的命令对象&lt;br&gt;-&amp;nbsp;&lt;/span&gt;&lt;span&gt;$schedule： 日程管理对象， 管理所有的日程&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-style: italic&quot;&gt;-&amp;nbsp;&lt;br&gt;-----&lt;br&gt;- handle: 执行所有的日程&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="t0l-BFTdsn3JFGyCsLJD-1">
-          <mxGeometry x="260" y="1100" width="470" height="280" as="geometry" />
+        <mxCell id="hA9z_tXhUc6T2AT0hzN--83" value="&lt;span style=&quot;background-color: rgb(247 , 250 , 255)&quot;&gt;&lt;i&gt;&lt;div&gt;ScheduleRunCommand： 是schedule的命令对象&lt;/div&gt;&lt;div&gt;- $schedule： 日程管理对象， 管理所有的日程&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;/div&gt;&lt;div&gt;-----&lt;/div&gt;&lt;div&gt;- handle: 执行所有的日程&lt;/div&gt;&lt;div&gt;- runSingleServerEvent：使用Cache互斥锁，保证同一时间所有服务器只有一个相同的事件在执行&lt;/div&gt;&lt;div&gt;- call：生产 CallbackEvent 默认在一天内，只允许执行一次；在当前进程执行&lt;/div&gt;&lt;div&gt;- exec: 生产 Event&amp;nbsp; 默认在一天内，只允许执行一次；使用命令行形式执行&lt;/div&gt;&lt;/i&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="t0l-BFTdsn3JFGyCsLJD-1">
+          <mxGeometry x="170" y="1100" width="560" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
