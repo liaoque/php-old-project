@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T06:01:00.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="p0MOgvLOHBsMgBs_FuiJ" version="15.8.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-09T06:03:32.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Uk75zT7joUs0CH1goRwH" version="15.8.7" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="CMD">
     <mxGraphModel dx="2009" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -852,7 +852,7 @@
         <mxCell id="MKtINcpbtidQSo-Pu7M5-14" value="$wildcardsCache 通过通配符匹配后的所有事件" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="MKtINcpbtidQSo-Pu7M5-10">
           <mxGeometry y="108" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="MKtINcpbtidQSo-Pu7M5-15" value="$queueResolver" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="MKtINcpbtidQSo-Pu7M5-10">
+        <mxCell id="MKtINcpbtidQSo-Pu7M5-15" value="$queueResolver 队列解析器" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="MKtINcpbtidQSo-Pu7M5-10">
           <mxGeometry y="134" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="MKtINcpbtidQSo-Pu7M5-16" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="MKtINcpbtidQSo-Pu7M5-10">
