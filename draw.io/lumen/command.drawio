@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T06:16:47.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="qQjN0yJ_qKPpkQEv4c3G" version="15.8.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-09T06:19:20.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Um973LwoaPOjKEhjkfnx" version="15.8.7" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="CMD">
     <mxGraphModel dx="2009" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -983,6 +983,12 @@
         </mxCell>
         <mxCell id="LLgb7InQEpYfvsgvmsfn-37" value="subscribe    订阅者" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LLgb7InQEpYfvsgvmsfn-28">
           <mxGeometry y="220" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hA9z_tXhUc6T2AT0hzN--0" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=-0.004;entryY=0.045;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="t0l-BFTdsn3JFGyCsLJD-1" source="LkXbEw82C-S9ItwX4znd-18" target="LLgb7InQEpYfvsgvmsfn-28">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="840" as="sourcePoint" />
+            <mxPoint x="690" y="840" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
