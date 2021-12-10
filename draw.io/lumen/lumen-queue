@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T06:45:29.205Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="dowHwnDqN_BuKo_ZSQbf" version="15.9.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-10T06:45:40.488Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ryyqSc5y294fm2o1Iyj4" version="15.9.4" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -656,6 +656,9 @@
         </mxCell>
         <mxCell id="oINQAgrJSiL6vFhB8a2f-30" value="标记连续失败多次的任务是失败任务" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ScgTpdd3-xkfnw4XMcyq-1">
           <mxGeometry x="-437.5" y="1060" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oINQAgrJSiL6vFhB8a2f-31" value="标记连续失败多次的任务是失败任务" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ScgTpdd3-xkfnw4XMcyq-1">
+          <mxGeometry x="-809.5" y="1053.82" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
