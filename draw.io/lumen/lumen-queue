@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-12T06:19:48.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ucd8zK8M4vC22AHg-q5y" version="15.9.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-12T07:32:07.633Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="cVr7c6rNvLnRDPQnZKAE" version="15.9.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -393,7 +393,7 @@
         <mxCell id="n6WIxNRq0TuKVbo2MGa2-88" value="解析命令名称&lt;br&gt;使用命令名+参数创建对象&lt;br&gt;&lt;span style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; background-color: rgb(255 , 255 , 255)&quot;&gt;Scheduling\Schedule::events[] =new Event&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; background-color: rgb(255 , 255 , 255)&quot;&gt;events存放所有 schedule&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; background-color: rgb(255 , 255 , 255)&quot;&gt;按需订制crontab的运行格式&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="WkFDbYVM7cvTiAS4us2j-1" vertex="1">
           <mxGeometry x="1241" y="329.5" width="305" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="FXqGPfXlaYkpbBhSucOe-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WkFDbYVM7cvTiAS4us2j-1" source="rhf84_zZ4BKTuuaOiyUX-0" target="FXqGPfXlaYkpbBhSucOe-0">
+        <mxCell id="FXqGPfXlaYkpbBhSucOe-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WkFDbYVM7cvTiAS4us2j-1" source="rhf84_zZ4BKTuuaOiyUX-0" target="FXqGPfXlaYkpbBhSucOe-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rhf84_zZ4BKTuuaOiyUX-0" value="&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255) ; color: rgb(0 , 98 , 122)&quot;&gt;register&lt;/span&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255)&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255) ; color: rgb(0 , 0 , 0)&quot;&gt;MigrationServiceProvider&lt;/span&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255)&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255) ; color: rgb(0 , 51 , 179)&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255)&quot;&gt;)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;register&lt;/span&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255) ; font-size: 9pt ; white-space: normal&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255) ; font-size: 9pt ; white-space: normal ; color: rgb(0 , 0 , 0)&quot;&gt;ConsoleServiceProvider&lt;/span&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255) ; font-size: 9pt ; white-space: normal&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255) ; font-size: 9pt ; white-space: normal ; color: rgb(0 , 51 , 179)&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255) ; font-size: 9pt ; white-space: normal&quot;&gt;)&lt;br&gt;这里注册了系统命令&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WkFDbYVM7cvTiAS4us2j-1" vertex="1">
@@ -460,7 +460,7 @@
         <mxCell id="r7RHAokEg4ybWJzZRMW0-0" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="WkFDbYVM7cvTiAS4us2j-1" vertex="1">
           <mxGeometry x="1585" y="480" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FXqGPfXlaYkpbBhSucOe-0" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;registerCommands&lt;br&gt;1. 注册相关命令&lt;br&gt;2. 设置了初始化的时候把创建这些命令&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="WkFDbYVM7cvTiAS4us2j-1">
+        <mxCell id="FXqGPfXlaYkpbBhSucOe-0" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;registerCommands&lt;br&gt;1. 注册相关命令&lt;br&gt;2. 设置了初始化的时候把创建这些命令&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="WkFDbYVM7cvTiAS4us2j-1" vertex="1">
           <mxGeometry x="870" y="31" width="277.5" height="68" as="geometry" />
         </mxCell>
       </root>
@@ -624,6 +624,9 @@
         <mxCell id="oINQAgrJSiL6vFhB8a2f-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ScgTpdd3-xkfnw4XMcyq-1" source="oINQAgrJSiL6vFhB8a2f-18" target="oINQAgrJSiL6vFhB8a2f-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="SepMmm-aXq5QRq0h1DCx-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ScgTpdd3-xkfnw4XMcyq-1" source="oINQAgrJSiL6vFhB8a2f-18" target="SepMmm-aXq5QRq0h1DCx-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oINQAgrJSiL6vFhB8a2f-18" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$job&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;fire&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;();&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=0;" parent="ScgTpdd3-xkfnw4XMcyq-1" vertex="1">
           <mxGeometry x="-347.5" y="1220" width="225" height="44.05" as="geometry" />
         </mxCell>
@@ -660,6 +663,20 @@
         <mxCell id="oINQAgrJSiL6vFhB8a2f-31" value="制定失败异常" style="text;whiteSpace=wrap;html=1;" parent="ScgTpdd3-xkfnw4XMcyq-1" vertex="1">
           <mxGeometry x="-809.5" y="1069.9099999999999" width="220" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="SepMmm-aXq5QRq0h1DCx-0" value="" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="ScgTpdd3-xkfnw4XMcyq-1">
+          <mxGeometry x="-639.5" y="1222.03" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SepMmm-aXq5QRq0h1DCx-2" value="vendor/illuminate/queue/Jobs/Job.php" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ScgTpdd3-xkfnw4XMcyq-1">
+          <mxGeometry x="-709.5" y="1192.03" width="230" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="E0MBvNSv54HESW2z1wxV" name="Page-5">
+    <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0YRGfek4cY0L8N3LiBHX-0" />
+        <mxCell id="0YRGfek4cY0L8N3LiBHX-1" parent="0YRGfek4cY0L8N3LiBHX-0" />
       </root>
     </mxGraphModel>
   </diagram>
