@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-12T07:56:32.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="WWO8ccgdzL7aIv1n_50R" version="15.9.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-13T03:06:54.795Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="I4fQcMHHwYIGcK551WWk" version="15.9.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -550,7 +550,7 @@
           <mxGeometry x="40" y="363.38" width="480" height="70" as="geometry" />
         </mxCell>
         <mxCell id="RQJ7HKmMvAXYRIt7xjLk-1" value="vendor/illuminate/queue/Worker.php" style="text;whiteSpace=wrap;html=1;" parent="ScgTpdd3-xkfnw4XMcyq-1" vertex="1">
-          <mxGeometry x="210" y="330" width="260" height="30" as="geometry" />
+          <mxGeometry x="30" y="330" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RQJ7HKmMvAXYRIt7xjLk-2" value="vendor/illuminate/queue/QueueServiceProvider.php" style="text;whiteSpace=wrap;html=1;" parent="ScgTpdd3-xkfnw4XMcyq-1" vertex="1">
           <mxGeometry x="20" y="50" width="300" height="30" as="geometry" />
@@ -678,9 +678,6 @@
         <mxCell id="SepMmm-aXq5QRq0h1DCx-2" value="vendor/illuminate/queue/Jobs/Job.php&lt;br&gt;vendor/illuminate/queue/Jobs/RedisJob.php" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ScgTpdd3-xkfnw4XMcyq-1">
           <mxGeometry x="-802.5" y="1169" width="259.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SepMmm-aXq5QRq0h1DCx-3" value="vendor/illuminate/queue/Worker.php" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ScgTpdd3-xkfnw4XMcyq-1">
-          <mxGeometry x="210" y="330" width="260" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="SepMmm-aXq5QRq0h1DCx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="ScgTpdd3-xkfnw4XMcyq-1" source="SepMmm-aXq5QRq0h1DCx-4" target="RQJ7HKmMvAXYRIt7xjLk-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -690,7 +687,7 @@
         <mxCell id="SepMmm-aXq5QRq0h1DCx-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ScgTpdd3-xkfnw4XMcyq-1" source="SepMmm-aXq5QRq0h1DCx-13" target="SepMmm-aXq5QRq0h1DCx-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SepMmm-aXq5QRq0h1DCx-13" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #f7faff ; font-style: italic&quot;&gt;pcntl_signal&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #871094 ; background-color: #f7faff ; font-style: italic&quot;&gt;SIGALRM&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;,...）&lt;br/&gt;&lt;/span&gt;pcntl_alarm&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt ; white-space: normal ; background-color: rgb(247 , 250 , 255)&quot;&gt;(...)&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="ScgTpdd3-xkfnw4XMcyq-1">
+        <mxCell id="SepMmm-aXq5QRq0h1DCx-13" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #f7faff ; font-style: italic&quot;&gt;pcntl_signal&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #871094 ; background-color: #f7faff ; font-style: italic&quot;&gt;SIGALRM&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;,...）&lt;br&gt;&lt;/span&gt;pcntl_alarm&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt ; white-space: normal ; background-color: rgb(247 , 250 , 255)&quot;&gt;(...)&lt;br&gt;设置超时&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="ScgTpdd3-xkfnw4XMcyq-1">
           <mxGeometry x="490" y="457" width="200" height="55" as="geometry" />
         </mxCell>
         <mxCell id="SepMmm-aXq5QRq0h1DCx-15" value="" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="ScgTpdd3-xkfnw4XMcyq-1">
