@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T05:59:56.416Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="rqwCK5apqleU21NaZMHx" version="15.9.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-14T06:02:08.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="MkszxboQ-V7uozyZ4290" version="15.9.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -820,7 +820,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UPTZTvRMxHHyWCnLUqef-0" value="&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;font color=&quot;#080808&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;runJob&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
-          <mxGeometry x="40" y="1120" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UPTZTvRMxHHyWCnLUqef-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0YRGfek4cY0L8N3LiBHX-1" source="UPTZTvRMxHHyWCnLUqef-3" target="UPTZTvRMxHHyWCnLUqef-5">
           <mxGeometry relative="1" as="geometry" />
@@ -835,7 +835,7 @@
           <mxGeometry x="505" y="837.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UPTZTvRMxHHyWCnLUqef-7" value="vendor/illuminate/queue/RedisQueue.php" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
-          <mxGeometry x="470" y="805" width="250" height="30" as="geometry" />
+          <mxGeometry x="400" y="807.75" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UPTZTvRMxHHyWCnLUqef-8" value="队列驱动为redis" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
           <mxGeometry x="230" y="805" width="110" height="30" as="geometry" />
@@ -855,8 +855,8 @@
         <mxCell id="UPTZTvRMxHHyWCnLUqef-13" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #f7faff&quot;&gt;app&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(Bus/&lt;/span&gt;&lt;span style=&quot;color: #000000 ; background-color: #f7faff&quot;&gt;Dispatcher&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #0033b3 ; background-color: #f7faff&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;)-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;dispatch&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$&lt;/span&gt;&lt;span style=&quot;color: #871094 ; background-color: #f7faff&quot;&gt;job&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;);&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
           <mxGeometry x="872.5" y="580" width="285" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UPTZTvRMxHHyWCnLUqef-15" value="vendor/illuminate/contracts/Bus/Dispatcher.php" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
-          <mxGeometry x="750" y="547.5" width="280" height="30" as="geometry" />
+        <mxCell id="UPTZTvRMxHHyWCnLUqef-16" value="vendor/illuminate/bus/Dispatcher.php" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
+          <mxGeometry x="800" y="560" width="220" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
