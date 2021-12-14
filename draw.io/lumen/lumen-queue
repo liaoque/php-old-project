@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T05:03:20.814Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="i6UXccsy-NABZ_nLXLWY" version="15.9.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-14T05:09:26.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="2765VWaowyS2DeOogIZ9" version="15.9.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -773,11 +773,17 @@
         <mxCell id="fxG65rV0y82olIJbmcOB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="0YRGfek4cY0L8N3LiBHX-1" source="fxG65rV0y82olIJbmcOB-0" target="R4AjJzca2OOamOj0_RhO-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fxG65rV0y82olIJbmcOB-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;" edge="1" parent="0YRGfek4cY0L8N3LiBHX-1" source="fxG65rV0y82olIJbmcOB-0" target="fxG65rV0y82olIJbmcOB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fxG65rV0y82olIJbmcOB-0" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;font color=&quot;#00627a&quot;&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255)&quot;&gt;registerManager //注册管理类&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#080808&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;registerConnection // 注册连接类&lt;br&gt;&lt;/span&gt;&lt;/font&gt;registerWorker   // 注册worker&lt;br&gt;registerListener //&lt;br&gt;registerFailedJobServices&lt;br&gt;registerOpisSecurityKey&lt;br&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
           <mxGeometry x="300" y="212.25" width="245" height="101.5" as="geometry" />
         </mxCell>
         <mxCell id="fxG65rV0y82olIJbmcOB-5" value="make worker" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
           <mxGeometry x="235" y="360" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fxG65rV0y82olIJbmcOB-7" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #067d17 ; background-color: #f7faff&quot;&gt;queue 经过多次的替换&lt;br/&gt;最后绑定为&lt;/span&gt;QueueManager&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
+          <mxGeometry x="650" y="230" width="250" height="67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
