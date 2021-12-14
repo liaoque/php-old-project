@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T09:41:05.799Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="h-7HynlRm0lMK-KpMy7j" version="15.9.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-14T09:42:26.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="9HsrWpsteHyzdg5qekrd" version="15.9.4" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -543,6 +543,9 @@
       <root>
         <mxCell id="ScgTpdd3-xkfnw4XMcyq-0" />
         <mxCell id="ScgTpdd3-xkfnw4XMcyq-1" parent="ScgTpdd3-xkfnw4XMcyq-0" />
+        <mxCell id="368ia12YEBgBRK7e9NVV-0" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.0pt&quot;&gt;handleJobException&lt;span style=&quot;background-color: #f7faff&quot;&gt;&lt;br&gt;异常记录日志&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="ScgTpdd3-xkfnw4XMcyq-1">
+          <mxGeometry x="-136" y="1184" width="176" height="95.97" as="geometry" />
+        </mxCell>
         <mxCell id="cEhix3CAjt8oVYoWaxom-0" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #871094 ; background-color: #f7faff&quot;&gt;exceptions&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;report&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$e&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;);&lt;br/&gt;异常记录日志&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="ScgTpdd3-xkfnw4XMcyq-1">
           <mxGeometry x="-160" y="570" width="150" height="300" as="geometry" />
         </mxCell>
