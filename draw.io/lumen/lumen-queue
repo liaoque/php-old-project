@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T05:09:26.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="2765VWaowyS2DeOogIZ9" version="15.9.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-14T05:16:26.984Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="aI38h_IRcfJx07WMmdwY" version="15.9.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -782,8 +782,8 @@
         <mxCell id="fxG65rV0y82olIJbmcOB-5" value="make worker" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
           <mxGeometry x="235" y="360" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fxG65rV0y82olIJbmcOB-7" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #067d17 ; background-color: #f7faff&quot;&gt;queue 经过多次的替换&lt;br/&gt;最后绑定为&lt;/span&gt;QueueManager&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
-          <mxGeometry x="650" y="230" width="250" height="67" as="geometry" />
+        <mxCell id="fxG65rV0y82olIJbmcOB-7" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #067d17 ; background-color: #f7faff&quot;&gt;queue 经过多次的替换&lt;br&gt;最后绑定为&lt;/span&gt;QueueManager&lt;br/&gt;QueueManager管理着N个列队&lt;br&gt;&lt;br/&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
+          <mxGeometry x="630" y="229.5" width="250" height="67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
