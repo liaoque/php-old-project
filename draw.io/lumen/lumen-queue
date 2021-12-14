@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T06:02:08.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="MkszxboQ-V7uozyZ4290" version="15.9.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-14T06:03:23.907Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="KzWssGfosbgCRbOemf2Q" version="15.9.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -857,6 +857,15 @@
         </mxCell>
         <mxCell id="UPTZTvRMxHHyWCnLUqef-16" value="vendor/illuminate/bus/Dispatcher.php" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
           <mxGeometry x="800" y="560" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="UPTZTvRMxHHyWCnLUqef-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0YRGfek4cY0L8N3LiBHX-1" source="UPTZTvRMxHHyWCnLUqef-17" target="UPTZTvRMxHHyWCnLUqef-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UPTZTvRMxHHyWCnLUqef-17" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #f7faff&quot;&gt;BusServiceProvider-&amp;gt;&lt;/span&gt;register&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9pt ; background-color: rgb(247 , 250 , 255)&quot;&gt;()&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
+          <mxGeometry x="1250" y="585" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UPTZTvRMxHHyWCnLUqef-20" value="vendor/illuminate/bus/BusServiceProvider.php" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
+          <mxGeometry x="1190" y="557.5" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
