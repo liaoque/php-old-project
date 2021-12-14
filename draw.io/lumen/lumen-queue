@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T06:06:25.335Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="EryQdLHmEqxVFMyXAUcA" version="15.9.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-14T06:08:20.515Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="AG0XPzrecGWGLs75cN4o" version="15.9.4" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -873,6 +873,30 @@
         <mxCell id="UPTZTvRMxHHyWCnLUqef-21" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #0033b3 ; background-color: #f7faff&quot;&gt;public function &lt;/span&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;dispatch&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$command&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;{&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #0033b3 ; background-color: #f7faff&quot;&gt;if &lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$this&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #871094 ; background-color: #f7faff&quot;&gt;queueResolver &lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;&amp;amp;&amp;amp; &lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$this&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;commandShouldBeQueued&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$command&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;)) {&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;        &lt;/span&gt;&lt;span style=&quot;color: #0033b3 ; background-color: #f7faff&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$this&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;dispatchToQueue&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$command&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;);&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;    }&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #0033b3 ; background-color: #f7faff&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$this&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;dispatchNow&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$command&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;);&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;}&lt;br&gt;如果继承了 &lt;/span&gt;ShouldQueue 就丢入队列, 否则就直接执行&lt;br&gt;但这里使用的是command, 而非job&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
           <mxGeometry x="785" y="677.5" width="460" height="152.5" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gMYdL2iJ1spBoTXeFBLs" name="event">
+    <mxGraphModel dx="1182" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="XyfbUSMrMvgJI63YV9yN-0" />
+        <mxCell id="XyfbUSMrMvgJI63YV9yN-1" parent="XyfbUSMrMvgJI63YV9yN-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="u3EWvzpv0CtGHLmOma_s" name="event-queue">
+    <mxGraphModel dx="1182" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="y8C87s4IfsplPBn4YV-3-0" />
+        <mxCell id="y8C87s4IfsplPBn4YV-3-1" parent="y8C87s4IfsplPBn4YV-3-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="k5Bym1Lp1gaPYfgo8V_B" name="pipeline">
+    <mxGraphModel dx="1182" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="wGNHjyG80POM6wsFg1sA-0" />
+        <mxCell id="wGNHjyG80POM6wsFg1sA-1" parent="wGNHjyG80POM6wsFg1sA-0" />
       </root>
     </mxGraphModel>
   </diagram>
