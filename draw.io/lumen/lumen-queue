@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T09:35:46.162Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Mp9BxbJka4pOiN21v9bj" version="15.9.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-15T09:35:52.211Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="IUmd15WeJbAs29V9iUTx" version="15.9.4" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -993,7 +993,7 @@
           <mxGeometry x="1011" y="1570" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Y8lsC-n3WvWJ9oupJKg2-15" value="这里对于job的优化，加入了job之间 优先级关系" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
-          <mxGeometry x="605" y="1640" width="270" height="20" as="geometry" />
+          <mxGeometry x="600" y="1650" width="270" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Y8lsC-n3WvWJ9oupJKg2-16" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;quot;jetbrains mono&amp;quot; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$this&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;ensureNextJobInChainIsDispatched&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #660000 ; background-color: #f7faff&quot;&gt;$command&lt;/span&gt;&lt;span style=&quot;background-color: #f7faff&quot;&gt;);&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
           <mxGeometry x="600" y="1665" width="330" height="50" as="geometry" />
