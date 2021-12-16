@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T09:02:47.704Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="bgcHiyikjLypoID8Nplh" version="15.9.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-16T09:02:58.910Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="sCdYGdF-dBkGY1HcmT4h" version="15.9.4" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -713,7 +713,7 @@
         <mxCell id="WGCsmNehnFsNzq4NUx30-47" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
           <mxGeometry x="270" y="2640" width="60" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="WGCsmNehnFsNzq4NUx30-48" value="防止意外丢失" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
+        <mxCell id="WGCsmNehnFsNzq4NUx30-48" value="防止队列数据意外丢失" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
           <mxGeometry x="650" y="2640" width="60" height="450" as="geometry" />
         </mxCell>
         <mxCell id="WGCsmNehnFsNzq4NUx30-49" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
