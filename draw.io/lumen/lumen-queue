@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T08:51:30.188Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="qb1Hpb-md5mpoi6LZIdp" version="15.9.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-16T08:52:53.834Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="fZ8PVP1l1bVLfGnruBwl" version="15.9.4" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1130,10 +1130,10 @@
         <mxCell id="WGCsmNehnFsNzq4NUx30-32" value="queue:&lt;span style=&quot;background-color: rgb(247, 250, 255); font-size: 9pt;&quot;&gt;notify&lt;br&gt;阻塞态队列&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fontFamily=Helvetica;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
           <mxGeometry x="436" y="2590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WGCsmNehnFsNzq4NUx30-33" value="queue:&lt;span style=&quot;background-color: rgb(247, 250, 255); font-style: italic; font-size: 9pt;&quot;&gt;delayed&lt;br&gt;延时集合&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fontFamily=Helvetica;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
+        <mxCell id="WGCsmNehnFsNzq4NUx30-33" value="&lt;span style=&quot;background-color: rgb(247 , 250 , 255)&quot;&gt;&lt;i&gt;&lt;div&gt;queue:reserved&lt;/div&gt;&lt;div&gt;job 运行态 队列&lt;/div&gt;&lt;/i&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fontFamily=Helvetica;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
           <mxGeometry x="650" y="2590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WGCsmNehnFsNzq4NUx30-34" value="queue:&lt;span style=&quot;background-color: rgb(247, 250, 255); font-style: italic; font-size: 9pt;&quot;&gt;reserved&lt;br&gt;job 执行态 队列&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fontFamily=Helvetica;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
+        <mxCell id="WGCsmNehnFsNzq4NUx30-34" value="queue:&lt;span style=&quot;font-size: 9pt ; background-color: rgb(247 , 250 , 255) ; font-style: italic&quot;&gt;delayed&lt;br&gt;延时集合&lt;/span&gt;&lt;span style=&quot;background-color: rgb(247 , 250 , 255) ; font-style: italic ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fontFamily=Helvetica;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
           <mxGeometry x="880" y="2590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WGCsmNehnFsNzq4NUx30-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontColor=#000000;strokeColor=#000000;" edge="1" parent="0YRGfek4cY0L8N3LiBHX-1" source="WGCsmNehnFsNzq4NUx30-39">
@@ -1146,6 +1146,9 @@
         </mxCell>
         <mxCell id="WGCsmNehnFsNzq4NUx30-39" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontColor=#000000;fillColor=#2BFF56;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
           <mxGeometry x="155" y="2680" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="WGCsmNehnFsNzq4NUx30-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.033;entryY=0.553;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontColor=#000000;strokeColor=#000000;" edge="1" parent="0YRGfek4cY0L8N3LiBHX-1" source="WGCsmNehnFsNzq4NUx30-45" target="WGCsmNehnFsNzq4NUx30-48">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WGCsmNehnFsNzq4NUx30-45" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontColor=#000000;fillColor=#63FFFA;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
           <mxGeometry x="170" y="2832" width="35" height="35" as="geometry" />
