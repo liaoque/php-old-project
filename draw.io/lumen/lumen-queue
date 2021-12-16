@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T08:53:49.689Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="g1VbWh72YtElTyJzMekB" version="15.9.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-16T08:55:57.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="bHHjTLRZ3dR06AGgV0SX" version="15.9.4" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1164,6 +1164,12 @@
             <mxPoint x="440" y="2801" as="sourcePoint" />
             <mxPoint x="190" y="2800" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="WGCsmNehnFsNzq4NUx30-57" value="1. 加入队列&lt;br&gt;push(list, data)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
+          <mxGeometry x="76.5" y="2640" width="113.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WGCsmNehnFsNzq4NUx30-58" value="1.1 把从阻塞态转换成就绪态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
+          <mxGeometry x="325" y="2700" width="113.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
