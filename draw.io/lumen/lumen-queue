@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T07:06:22.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="iqVZhIA-RkXkb6L8NGcw" version="15.9.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-16T07:25:09.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="-2xLrCugNbJ6EDEe7lr6" version="15.9.4" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1074,7 +1074,7 @@
         <mxCell id="WGCsmNehnFsNzq4NUx30-10" value="vendor/illuminate/queue/QueueServiceProvider.php" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
           <mxGeometry x="1075" y="2190" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WGCsmNehnFsNzq4NUx30-11" value="从列表里拿到&lt;br&gt;job进行&lt;br&gt;解析和执行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF5D17;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
+        <mxCell id="WGCsmNehnFsNzq4NUx30-11" value="从列表里拿到&lt;br&gt;job" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF5D17;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
           <mxGeometry x="30" y="960" width="85" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WGCsmNehnFsNzq4NUx30-12" value="这里把错误的job存如数据库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF170F;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
@@ -1082,6 +1082,9 @@
         </mxCell>
         <mxCell id="WGCsmNehnFsNzq4NUx30-13" value="捕获job执行异常进行容错处理" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF170F;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
           <mxGeometry x="5" y="1820" width="235" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WGCsmNehnFsNzq4NUx30-14" value="解析job，然后通过它pipeline执行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF5D17;" vertex="1" parent="0YRGfek4cY0L8N3LiBHX-1">
+          <mxGeometry x="477.5" y="1340" width="122.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
