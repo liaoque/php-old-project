@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-17T06:29:55.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Ew3Ceck3pYwabJyFZC_8" version="15.9.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-17T06:32:24.077Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="TL8aWd7ebZN5zMmdyXiq" version="15.9.4" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1254,6 +1254,9 @@
         </mxCell>
         <mxCell id="2AIUDh7rqcaa4maWXz2j-1" value="vendor/illuminate/events/EventServiceProvider.php" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="XyfbUSMrMvgJI63YV9yN-1">
           <mxGeometry x="8" y="40" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2AIUDh7rqcaa4maWXz2j-2" value="vendor/illuminate/events/Dispatcher.php" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="XyfbUSMrMvgJI63YV9yN-1">
+          <mxGeometry x="200" y="510" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
