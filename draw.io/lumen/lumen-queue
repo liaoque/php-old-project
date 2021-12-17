@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-17T07:19:40.498Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="eJcIHdvyYpv_KlwGjSWq" version="15.9.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-17T07:22:01.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="KmzY2fCw1HndWWNfNe7p" version="15.9.4" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1339,8 +1339,14 @@
         <mxCell id="2AIUDh7rqcaa4maWXz2j-34" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #00627a ; background-color: #f7faff&quot;&gt;listen9&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="XyfbUSMrMvgJI63YV9yN-1">
           <mxGeometry x="421" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2AIUDh7rqcaa4maWXz2j-36" value="事件的结构就是一个hashmap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="XyfbUSMrMvgJI63YV9yN-1">
-          <mxGeometry x="420" y="1030" width="216" height="30" as="geometry" />
+        <mxCell id="2AIUDh7rqcaa4maWXz2j-36" value="事件的结构就是一个hashmap&lt;br&gt;调用事件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="XyfbUSMrMvgJI63YV9yN-1">
+          <mxGeometry x="220" y="1010" width="216" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2AIUDh7rqcaa4maWXz2j-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;fontColor=#000000;" edge="1" parent="XyfbUSMrMvgJI63YV9yN-1" source="2AIUDh7rqcaa4maWXz2j-38" target="2AIUDh7rqcaa4maWXz2j-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AIUDh7rqcaa4maWXz2j-38" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(0 , 98 , 122) ; background-color: rgb(247 , 250 , 255)&quot;&gt;dispatch(event_name)&lt;br/&gt;&lt;/span&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="XyfbUSMrMvgJI63YV9yN-1">
+          <mxGeometry x="150" y="920" width="139" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
