@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T07:22:36.515Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="CEfBtNC_YGU1esmxkkzx" version="15.9.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-20T07:23:56.198Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Bd3CpsghNhy2kaKGkQ8g" version="15.9.6" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1644,10 +1644,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rtNLYdV_OEq-4VDx6Qqh-101" value="&lt;div&gt;&lt;div&gt;pushNew(func, prePush){&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;return push()use(func, prePush){&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;return prePush ? func(prePush) : func()&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;push2 = pushNew(func1)&lt;/div&gt;&lt;div&gt;push3 = pushNew(func2, push2)&lt;/div&gt;&lt;div&gt;push4 = pushNew(func3, push3)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;push4() -&amp;gt; func3(push3) -&amp;gt; func2(push2) -&amp;gt; func1()&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;-&amp;gt; push3()&lt;span&gt;	&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;	&lt;/span&gt;-&amp;gt; push2()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
-          <mxGeometry x="490" y="752" width="320" height="175" as="geometry" />
+          <mxGeometry x="43.25" y="990" width="320" height="175" as="geometry" />
         </mxCell>
-        <mxCell id="rtNLYdV_OEq-4VDx6Qqh-102" value="pushNew(func, prePush){&#xa;	return push()use(func, prePush){&#xa;		return prePush ? func(prePush) : func()&#xa;	}&#xa;}" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
-          <mxGeometry x="30" y="1010" width="340" height="90" as="geometry" />
+        <mxCell id="rtNLYdV_OEq-4VDx6Qqh-103" value="func1(){ func2() }&#xa;func2(){ func3()}&#xa;func3(){ }" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
+          <mxGeometry x="20" y="470" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
