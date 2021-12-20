@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T05:47:48.070Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Co6oxUcy_zk7QAZf_mis" version="15.9.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-20T05:48:56.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="9K_x3aBnz2VACe4sJzXI" version="15.9.6" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1538,8 +1538,8 @@
             <mxPoint x="209.5" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rtNLYdV_OEq-4VDx6Qqh-37" value="优点：&lt;br&gt;支持异步&lt;br&gt;缺点：&lt;br&gt;结构稍显复杂&lt;br&gt;函数和函数之间耦合性高，前一个函数的执行，必须依赖下一个函数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
-          <mxGeometry x="530" y="505" width="250" height="80" as="geometry" />
+        <mxCell id="rtNLYdV_OEq-4VDx6Qqh-37" value="优点：&lt;br&gt;支持异步&lt;br&gt;缺点：&lt;br&gt;结构稍显复杂&lt;br&gt;函数和函数之间耦合性高，前一个函数的执行，必须依赖下一个函数&lt;br&gt;连接的执行必须用户自己处理" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
+          <mxGeometry x="530" y="505" width="250" height="105" as="geometry" />
         </mxCell>
         <mxCell id="rtNLYdV_OEq-4VDx6Qqh-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
           <mxGeometry x="20" y="1210" width="120" height="60" as="geometry" />
