@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T07:48:43.701Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="vxlASYXJG12Q0vwX-gAo" version="15.9.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-20T08:03:54.671Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="UjALEZkg7cdd_2cPD3lJ" version="15.9.6" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1671,6 +1671,9 @@
         </mxCell>
         <mxCell id="rtNLYdV_OEq-4VDx6Qqh-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="wGNHjyG80POM6wsFg1sA-1" source="rtNLYdV_OEq-4VDx6Qqh-113" target="rtNLYdV_OEq-4VDx6Qqh-112">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rtNLYdV_OEq-4VDx6Qqh-130" value="piple" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#CC00CC;fontStyle=1" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
+          <mxGeometry x="545" y="980" width="130" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
