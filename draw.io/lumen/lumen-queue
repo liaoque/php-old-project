@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T01:35:26.123Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="7eOL8xg5VMYf2mI0n-pz" version="15.9.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-21T03:17:50.298Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="6Tzh2_nnKYFvD6wfdLDe" version="15.9.6" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1562,13 +1562,13 @@
         <mxCell id="rtNLYdV_OEq-4VDx6Qqh-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="wGNHjyG80POM6wsFg1sA-1" source="rtNLYdV_OEq-4VDx6Qqh-62" target="rtNLYdV_OEq-4VDx6Qqh-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rtNLYdV_OEq-4VDx6Qqh-60" value="node1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
+        <mxCell id="rtNLYdV_OEq-4VDx6Qqh-60" value="push1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
           <mxGeometry x="130" y="1265" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rtNLYdV_OEq-4VDx6Qqh-61" value="node2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
+        <mxCell id="rtNLYdV_OEq-4VDx6Qqh-61" value="push2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
           <mxGeometry x="290" y="1265" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rtNLYdV_OEq-4VDx6Qqh-62" value="node3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
+        <mxCell id="rtNLYdV_OEq-4VDx6Qqh-62" value="push3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
           <mxGeometry x="500" y="1265" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rtNLYdV_OEq-4VDx6Qqh-64" value="优点：&lt;br&gt;支持异步&lt;br&gt;&lt;br&gt;用户的函数只控制node，不需要关注函数与函数之间的关系&lt;br&gt;&lt;br&gt;缺点：&lt;br&gt;结构更复杂一些&lt;br&gt;权限控制变弱，只能控制node执行还是不执行，对error处理不灵活" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
@@ -1622,10 +1622,10 @@
           <mxGeometry x="39" y="1630" width="120" height="150" as="geometry" />
         </mxCell>
         <mxCell id="rtNLYdV_OEq-4VDx6Qqh-134" value="func1-success" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=left;verticalAlign=top;" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
-          <mxGeometry x="220" y="1630" width="120" height="60" as="geometry" />
+          <mxGeometry x="93.25" y="1590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rtNLYdV_OEq-4VDx6Qqh-135" value="func1-err" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=left;verticalAlign=top;" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
-          <mxGeometry x="220" y="1720" width="120" height="60" as="geometry" />
+          <mxGeometry x="93.25" y="1754" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rtNLYdV_OEq-4VDx6Qqh-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="wGNHjyG80POM6wsFg1sA-1" source="rtNLYdV_OEq-4VDx6Qqh-143" target="rtNLYdV_OEq-4VDx6Qqh-144">
           <mxGeometry relative="1" as="geometry" />
