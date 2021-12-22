@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-22T08:24:13.247Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="_LmMAI-Q1JijUPBiIOza" version="15.9.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-12-22T09:04:42.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="cnwewp0ifm9bPHsNmoKC" version="15.9.6" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="概要">
     <mxGraphModel dx="1182" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1649,6 +1649,12 @@
         </mxCell>
         <mxCell id="rtNLYdV_OEq-4VDx6Qqh-170" value="func3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
           <mxGeometry x="615" y="2010" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rtNLYdV_OEq-4VDx6Qqh-192" value="class pushNew{&#xa;    result&#xa;    exception &#xa;    prev&#xa;    &#xa;    constructor(x){&#xa;        try{&#xa;            if(x) result = x()&#xa;        }catch(e){&#xa;            this.exception = e&#xa;        }&#xa;    }&#xa;    &#xa;    push(func){&#xa;        if(this.exception) return this&#xa;        try{&#xa;            return this.create(func(this.result))&#xa;        }catch(e){&#xa;            return this.error(e)&#xa;        }&#xa;    }&#xa;    &#xa;    catch(errFunc){&#xa;        try{&#xa;            if(this.exception) return this.create(errFunc(this.exception))&#xa;            return this&#xa;        }catch(e){&#xa;            return this.error(e)&#xa;        }&#xa;    }&#xa;    &#xa;    error(e){&#xa;        this.exception = e&#xa;        return this&#xa;    }&#xa;    &#xa;    create(param){&#xa;        return param instanceof pushNew ?  param :  new pushNew(param)&#xa;    }&#xa;}" style="text;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
+          <mxGeometry x="26.629999999999995" y="2060" width="410" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="rtNLYdV_OEq-4VDx6Qqh-193" value="&lt;div&gt;(new pushNew(function(){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; throw new Error(111)&lt;/div&gt;&lt;div&gt;})).catch(function(e){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; console.log(&quot;catch-----&quot;);&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; console.log(e);&amp;nbsp;&lt;/div&gt;&lt;div&gt;}).catch(function(e){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; console.log(&quot;catch++++++&quot;);&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; console.log(e);&amp;nbsp;&lt;/div&gt;&lt;div&gt;}).push(function(xx){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; console.log(&quot;push-----&quot;);&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; console.log(xx);&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; throw new Error(2222)&lt;/div&gt;&lt;div&gt;}).catch(function(e){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; console.log(&quot;catch++++++&quot;);&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; console.log(e);&amp;nbsp;&lt;/div&gt;&lt;div&gt;})&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="wGNHjyG80POM6wsFg1sA-1">
+          <mxGeometry x="496.25" y="2350" width="270" height="235" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
